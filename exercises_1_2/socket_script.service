@@ -1,0 +1,10 @@
+[Unit]
+Decription=Socket Service
+After=multi-user.target
+
+[Service]
+type=idle
+ExecStart=/usr/bin/python /home/socket_server/socket_server.py
+
+[Install]
+WantedBy=multi-user.target

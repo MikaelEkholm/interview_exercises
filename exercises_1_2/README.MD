@@ -1,11 +1,11 @@
 # Exercise 1
 The script requires executable permissions:
 ```shell
-chmod +x install.sh
+chmod +x script.sh
 ```
 To run the script simply issue the following command:
 ```shell
-./install.sh URL SEARCH_TERM
+./script.sh URL SEARCH_TERM
 ```
 
 The script takes two parameters, a url and a search term. The script will output all appearances of the term to stdout.

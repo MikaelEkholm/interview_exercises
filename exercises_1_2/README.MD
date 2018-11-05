@@ -25,9 +25,9 @@ sudo systemctl enable socket_script.service
 # Start service
 sudo systemctl start socket_script.service
 ```
-Next start the client:
+Next start the client, HOST is the hostname of the server:
 ```bash
-python socket_client.py
+python socket_client.py HOST
 ```
 The client will then ask for the URL and SEARCH_TERM:
 ```bash
